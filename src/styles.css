@@ -1,0 +1,163 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  background: #123456;
+  color: white;
+}
+
+.button:hover,
+.button:active {
+  background: #449966;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+.positiveRate {
+  color: green;
+}
+
+.noRate {
+  color: white;
+}
+
+.negativeRate {
+  color: red;
+}
+
+.list {
+}
+
+.listItem {
+  display: block;
+  padding: 5px 10px;
+  background-color: #123456;
+  color: white;
+}
+
+.container {
+  border: 2px #333 solid;
+}
+
+.infoBox {
+  display: inline-block;
+  width: 48%;
+  margin: 1%;
+}
+
+.infoBox div {
+  padding: 5px 0;
+}
+
+.infoBoxHeader {
+  border-radius: 8px 8px 0 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.infoBoxPrice {
+  font-size: 20px;
+}
+
+.infoBoxRates {
+}
+
+.infoBoxRateHeader {
+  display: block;
+}
+
+.infoBoxRateHeader div {
+  width: 32%;
+  padding: 5px 0 0 0;
+}
+
+.infoBoxRates .infoBoxRateNumbers div {
+  width: 32%;
+  padding: 0 0 5px 0;
+}
+
+.infoBoxAmount {
+}
+
+.infoBoxAmountValue {
+  border-radius: 0 0 8px 8px;
+}
+
+#BTC div {
+  background-color: #f2a900;
+}
+
+#BTC .alt {
+  background-color: rgba(242, 169, 0, 0.7);
+}
+
+#ETH div {
+  background-color: #3c3c3d;
+}
+
+#ETH .alt {
+  background-color: rgba(60, 60, 61, 0.75);
+}
+
+#NEO div {
+  background-color: #74bc2a;
+}
+
+#NEO .alt {
+  background-color: rgba(116, 188, 42, 0.75);
+}
+
+#NANO div {
+  background-color: #488fe2;
+}
+
+#NANO .alt {
+  background-color: rgba(72, 143, 226, 0.75);
+}
+
+#GAS div {
+  background-color: #bee407;
+}
+
+#GAS .alt {
+  background-color: rgba(190, 228, 7, 0.75);
+}
+
+#ZRX div {
+  background-color: #1d2227;
+}
+
+#ZRX .alt {
+  background-color: rgba(29, 34, 39, 0.75);
+}
+
+#NULS div {
+  background-color: #84ba41;
+}
+
+#NULS .alt {
+  background-color: rgba(132, 186, 65, 0.75);
+}
+
+#VRC div {
+  background-color: #418bca;
+}
+
+#VRC .alt {
+  background-color: rgba(65, 139, 202, 0.75);
+}
